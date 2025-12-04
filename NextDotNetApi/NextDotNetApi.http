@@ -1,5 +1,4 @@
 @NextDotNetApi_HostAddress = https://webapp-v1.azurewebsites.net
-var apiHost = Configuration["NextDotNetApi_HostAddress"];
 
 GET {{NextDotNetApi_HostAddress}}/health/
 Accept: application/json
